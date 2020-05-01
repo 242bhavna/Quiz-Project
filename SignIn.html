@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+body
+{
+background-image:url('bg9.jpg');
+background-size:120%;
+background-repeat:no-repeat;
+}
+#menuu
+{
+background-color:rgba(0,0,0,1.5);
+color:white;
+margin:-8px;
+}
+#menuu ul li
+{
+display:inline-block;
+padding :20px;
+font-size:20px;
+background-color:rgba(0,0,0,0.5);
+
+}
+#menuu ul li:hover
+{
+color:white;
+background:linear-gradient(orange,black,blue);
+}
+#data{
+margin-top:100px;
+}
+.A
+{
+width:70px;
+height:35px;
+background:linear-gradient(red,black);
+color:white;
+font-size:15px;
+}
+table
+{
+background-color:rgba(0,0,0,0.5);
+color:white;
+font-size:20px;
+font-weight:bold;
+padding:40px;
+box-shadow:5px 5px 5px black;
+}
+a:visited
+{
+color:white;
+}
+a:link
+{
+color:white;
+}
+</style>
+</head>
+<body>
+<div id="menuu">
+<ul>
+
+<li><a href="home.html">Home</a></li>
+<li><a href="SignIn.html">Register</a></li>
+<li><a href="login.html">Login</a></li>
+<li>About</li>
+
+<li>help</li>
+</ul>
+</div>
+<center>
+<table cellspacing=22px>
+<form action="reg">
+<tr><td>Enter Name</td><td><input type="text" name="un"></td></tr><br>
+<tr><td>Enter Password</td><td><input type="password" name="up"></td></tr><br>
+<tr><td>Email ID</td><td><input type="email" name="ue"></td></tr><br>
+<tr><td>Course</td><td><input type="text" name="uc"></td></tr><br>
+<tr><td>Branch</td><td><input type="text" name="ub"></td></tr><br>
+<tr><th colspan="2"><input type="submit" class="A" value="Submit"></th></tr><br>
+</form>
+</table>
+</center>
+</body>
+</html>

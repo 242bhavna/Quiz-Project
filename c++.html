@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body
+{
+background-image:url("bg5.jpg");
+background-size:100%;
+font-size:20px;
+color:white;
+}
+
+.A
+{
+background-color:black;
+color:white;
+width:70px;
+height:35px;
+}
+</style>
+<body>
+<center>
+<h1>Java Qiuz Questions</h1>
+<p>Click on Questions</p>
+
+<button onclick="Q1()" class=A >Q.1</button>
+<button onclick="Q2()" class=A >Q.2</button>
+<button onclick="Q3()" class=A >Q.3</button>
+<button onclick="Q4()" class=A >Q.4</button>
+<button onclick="Q5()" class=A >Q.5</button>
+<p id="demo1"></p>
+
+
+<script>
+var a=0;
+function Q1() {
+  var text;
+  
+  var favDrink = prompt("Which data type is used to create a variable that should store integers");
+  switch(favDrink) {
+    case "int":
+	 a++
+	 text=a;
+      break;
+    
+	
+    
+    default:
+	
+      text = "Wrong Answer";
+  }
+  document.getElementById("demo1").innerHTML = text;
+  }
+  
+  
+  function Q2() {
+  var text;
+  
+  var favDrink = prompt("What is a correct syntax to output 'Hello World' in C++?");
+  switch(favDrink) {
+    case "cout<<'Hello World';":
+	 a++
+	 text=a;
+      break;
+    
+	
+    
+    default:
+      text = "Wrong Answer";
+  }
+  document.getElementById("demo1").innerHTML = text;
+ }
+ 
+ function Q3() {
+  var text;
+ 
+  var favDrink = prompt("How do you create a variable with the integer value x=5?");
+  switch(favDrink) {
+    case "int x=5;":
+	 a++
+	 text=a;
+      break;
+    
+	
+    
+    default:
+	a=0
+      text = "Wrong Answer";
+  }
+  document.getElementById("demo1").innerHTML = text;
+ }
+ 
+ function Q4() {
+  var text;
+
+  var favDrink = prompt("How do you create a variable with the floating number x=2.8?");
+  switch(favDrink) {
+    case "float x=2.8;":
+	 a++
+	 text=a;
+      break;
+    
+	case "float x=2.8f":
+	a++
+	text=a;
+    break;
+    
+    default:
+      text = "Wrong Answer";
+  }
+  document.getElementById("demo1").innerHTML = text;
+ }
+
+function Q5() {
+  var text;
+  
+  var favDrink = prompt("Which data type is used to create a variable that should store character?");
+  switch(favDrink) {
+   
+    
+	case "char":
+	a++
+	text=a;
+    break;
+    
+    default:
+	a=
+      text = "Wrong Answer";
+  }
+  document.getElementById("demo1").innerHTML = text;
+ }
+
+</script>
+
+</body>
+</html>
